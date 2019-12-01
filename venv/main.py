@@ -7,11 +7,12 @@
 """
 
 import selenium
+import logging
 
 
 def fuc():
     logging.info("fuc")
-
+    logging.info("branch01")
 
 def main():
     fuc()
